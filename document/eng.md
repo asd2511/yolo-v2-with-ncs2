@@ -126,7 +126,7 @@ Note: ('/path/to/image') path needs to be replaced
 ```shell
 python3 test.py
 ```
-In the root directory, find the newly created out.png <br>
+In the root directory, find the newly created 'out.png' <br>
 My example：
 ![](https://github.com/asd2511/yolo-v2-with-ncs2/blob/master/img/out.png)  
 
