@@ -2,8 +2,7 @@
 
 
 ## 步骤 1： 在树莓派中安装raspbian的镜像
-测试运行版本：[2018-11-13-raspbian-stretch.img]（https://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/2018-11-13-raspbian-stretch.zip.torrent）
-
+测试运行版本：[2018-11-13-raspbian-stretch.img](https://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/2018-11-13-raspbian-stretch.zip.torrent）)
 ## 步骤 2 ：在克隆github中 ncsdk2仓库
  ```shell
 
