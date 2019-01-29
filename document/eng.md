@@ -31,11 +31,11 @@ Set the default path:
  ```shell
 vi ~/.bashrc
 ```
-Add the following line to the bashrc file <br>
+Add the following line to the `bashrc` file <br>
 ```shell
 source ~/inference_engine_vpu_arm/bin/setupvars.sh
 ```
-Save and exit, open a new terminal, you should see the following text.
+`Save and exit`, open a new terminal, you should see the following text.
 
 
 ![](https://github.com/asd2511/yolo-v2-with-ncs2/blob/master/img/terminal.png)  
@@ -64,11 +64,11 @@ wget --no-check-certificate https://download.01.org/openvinotoolkit/2018_R4/open
 
 ./armv7l/Release/object_detection_sample_ssd -m face-detection-adas-0001.xml -d MYRIAD -i <path_to_image>
 ```
-Where <path_to_image> needs to be replaced. The selected image should be a portrait photo (at least one face)
+Where `<path_to_image>` needs to be replaced. The selected image should be a portrait photo (at least one face)
 
 ## Step 6: Run the face detection model using the OpenCV * API (Run the Opencv example in Python)
 ### Check if OpenCV is installed correctly
-### 6.1 Create a new test folder and download the weight bin, xml file
+### 6.1 Create a new test folder and download the `weight` `bin`, `xml` file
 ```shell
 cd
 
@@ -82,7 +82,7 @@ wget --no-check-certificate https://download.01.org/openvinotoolkit/2018_R4/open
 
 ```
 ### 6.2 Import the measured photos and create a python program
-Import portrait photos into this directory（/test）<br>
+Import portrait photos into this directory（`/test`）<br>
 run
 ```shell
     nano test.py
@@ -120,18 +120,18 @@ for detection in out.reshape(-1, 7):
 # Save the frame to an image file 
 cv.imwrite('out.png', frame) 
 ```
-Note: ('/path/to/image') path needs to be replaced
+Note: (`'/path/to/image'`) path needs to be replaced
 
 ### 6.4 Running python program
 ```shell
 python3 test.py
 ```
-In the root directory, find the newly created 'out.png' <br>
+In the root directory, find the newly created `out.png` <br>
 My example：
 ![](https://github.com/asd2511/yolo-v2-with-ncs2/blob/master/img/out.png)  
 
 # OpenVINO-YoloV3
-Code from[PINTO0309](https://github.com/PINTO0309)
+`Code from[PINTO0309](https://github.com/PINTO0309)`
 
 ## Step 1: Clone the git repository
 ```shell
@@ -139,19 +139,19 @@ cd
 git clone https://github.com/PINTO0309/OpenVINO-YoloV3
 ```
 ## Step 2: Download the preparation file for the corresponding YOLOV3
-### Bin and xml file
+### `Bin` and `xml` file
 ```shell
 cd /home/pi/OpenVINO-YoloV3/lrmodels/YoloV3/FP16 
 sh /home/pi/OpenVINO-YoloV3/lrmodels/YoloV3/FP16/download_yolov3lrFP16.sh
 
 ```
-### pbmodels file
+### `pbmodels` file
 ```shell
 cd /home/pi/OpenVINO-YoloV3/pbmodels
 sh /home/pi/OpenVINO-YoloV3/pbmodels/download_yolov3.sh
 
 ```
-### weights file
+### `weights` file
 ```shell
 cd /home/pi/OpenVINO-YoloV3/weights
 sh /home/pi/OpenVINO-YoloV3/weights/download_yolov3_weights.sh
