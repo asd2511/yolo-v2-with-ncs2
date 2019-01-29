@@ -162,3 +162,6 @@ cd /home/pi/OpenVINO-YoloV3/
 
 python3 openvino_yolov3_MultiStick_test.py -numncs 1
 ```
+
+结果如图所示：
+![](https://github.com/asd2511/yolo-v2-with-ncs2/blob/master/img/person.png)  
