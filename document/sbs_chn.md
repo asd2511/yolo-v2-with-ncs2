@@ -5,6 +5,7 @@
 
 
 # 安装openVINO toolkit
+代码来自[Inter](https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI)
 ## 步骤 1： 在树莓派中安装raspbian的镜像
 具体过程跳过<br>
 测试运行版本：[2018-11-13-raspbian-stretch.img](https://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/2018-11-13-raspbian-stretch.zip.torrent)
