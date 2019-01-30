@@ -5,6 +5,7 @@
 
 
 # Install the openVINO toolkit
+code from [Inter](https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI)
 ## Step 1: Install the raspbian image in the Raspberry Pi
 Skip the specific process<br>
 Runing test version：[2018-11-13-raspbian-stretch.img](https://downloads.raspberrypi.org/raspbian/images/raspbian-2018-11-15/2018-11-13-raspbian-stretch.zip.torrent)
