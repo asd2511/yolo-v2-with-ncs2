@@ -28,13 +28,13 @@ sed -i "s|<INSTALLDIR>|$(pwd)/inference_engine_vpu_arm|" inference_engine_vpu_ar
 
 #### Step3.2 Set the default `path`:
  ```shell
-vi ~/.bashrc
+sudo nano ~/.bashrc
 ```
 
 #### Step 3.3 Add the following line to the `bashrc` file <br>
 
 ```shell
-source ~/inference_engine_vpu_arm/bin/setupvars.sh
+source ~/yolo-v3-with-ncs2/inference_engine_vpu_arm/bin/setupvars.sh
 ```
 Save and exit, open a new terminal, you should see the following text.
 
