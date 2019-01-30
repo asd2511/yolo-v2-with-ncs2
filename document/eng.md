@@ -16,7 +16,7 @@ cd
 
 git clone https://github.com/asd2511/yolo-v3-with-ncs2
 
-
+cd yolo-v3-with-ncs2
 ```
 ### Step 3: Run the following shell command to complete the OpenVINO toolkit setup.
 #### Step 3.1： run
