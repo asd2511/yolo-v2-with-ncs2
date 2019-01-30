@@ -22,9 +22,7 @@ git clone https://github.com/asd2511/yolo-v3-with-ncs2
 #### Step 3.1： run
 
 ```shell
-sed -i “ s | <INSTALLDIR> | $（ pwd ） / inference_engine_vpu_arm | ” inference_engine_vpu_arm / bin / setupvars.sh
-
-source inference_engine_vpu_arm/bin/setupvars.sh
+sed -i "s|<INSTALLDIR>|$(pwd)/inference_engine_vpu_arm|" inference_engine_vpu_arm/bin/setupvars.sh
 ```
 
 
